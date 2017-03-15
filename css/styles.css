@@ -7,20 +7,38 @@ h1{
   font-size: 100px;
   color: #ff5900;
   font-family: cursive;
-  padding-top: 150px;
+  padding-top: 100px;
+  margin: 0
 }
-
+.clear {
+  clear: both;
+}
 .icon{
   max-width: 50px;
-  margin-right: 50px;
+
+  margin-left: 100px;
   position: relative;
+}
+
+.column1{
+  width: 150px;
+  height: 100px;
+  position: relative;
+  display: inline-block;
   float: left;
-  padding-top: 125px;
 }
 
-body{
-  background-color: brown;
+.column2{
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  float: left;
 }
 
+
+.sad{
+  width: 150px;
+  height: 100px;
+}
 
 /* brown = #afsc30 orange = #ff6919  red = #ff5900 */
