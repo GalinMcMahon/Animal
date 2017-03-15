@@ -1,12 +1,26 @@
+.headerimage{
+  max-height: 400px;
+  float: left;
+}
+
 h1{
   font-size: 100px;
   color: #ff5900;
   font-family: cursive;
+  padding-top: 150px;
 }
 
 .icon{
   max-width: 50px;
-  margin-right: 100px;
+  margin-right: 50px;
+  position: relative;
+  float: left;
+  padding-top: 125px;
 }
+
+body{
+  background-color: brown;
+}
+
 
 /* brown = #afsc30 orange = #ff6919  red = #ff5900 */
